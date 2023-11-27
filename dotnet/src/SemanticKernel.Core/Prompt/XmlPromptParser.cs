@@ -8,7 +8,7 @@ namespace Microsoft.SemanticKernel.Prompt;
 /// <summary>
 /// Class to parse text prompt from XML format.
 /// </summary>
-public static class XmlPromptParser
+internal static class XmlPromptParser
 {
     /// <summary>
     /// Parses text prompt and sets output as collection of <see cref="PromptNode"/> instances.

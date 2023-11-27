@@ -32,6 +32,7 @@
 
   <ItemGroup>
     <InternalsVisibleTo Include="Microsoft.SemanticKernel.Experimental.Assistants" />
+    <InternalsVisibleTo Include="Microsoft.SemanticKernel.Connectors.AI.OpenAI" />
   </ItemGroup>
 
 </Project>
